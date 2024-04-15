@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+    <script defer src="script.js"></script>
+    <title>Client</title>
+    
+</head>
+<body>
+    <div class="top-bar"  >
+        <a href="tel:+919940496796"> <i class="fas fa-phone"></i> +91-9940496796</a>
+        <a href="mailto: info@shifahealth.com"> <i class="fas fa-envelope"></i> info@shifahealth.com</a>
+        <a href="#"><i class="uil uil-comment"></i>Support Team Chat</a>
+       </div>
+       <header class="header-section">
+
+        <div class="navbar-resp">
+            <div class="container-resp nav-container-resp">
+                <input class="checkbox" type="checkbox" name="" id="" />
+                <div class="hamburger-lines">
+                    <span class="line line1"></span>
+                    <span class="line line2"></span>
+                    <span class="line line3"></span>
+                </div>
+                <div class="logo-nav"><a href="#nav">
+                        <img class="logo-img" src="img/1592655058633.jpg" alt=""></a>
+                </div>
+                <div class="menu-items">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="Hospital.html">ABOUT US</a>
+                        <select class="nav-drop-select" id="pageSelect" onchange="navigate()">
+                            <option value=""></option>
+                            <option value="director.html"><Span class="menu-content">DIRECTOR</Span></option>
+                          </select>
+                    </li>
+    
+    
+    
+    
+                    <li><a href="service.html">SERVICES</a>
+                        <select class="nav-drop-select" id="pageSelect-service" onchange="service_navigate()">
+                            <option value=""></option>
+                            <option value="icuSetup.html">ICU Setup</option>
+                            <option value="medicall-staff-solution.html">Medical Staff Solution</option>
+                            <option value="DoctorServices.html">Doctor Services</option>
+                            <option value="medical-equipment.html">Medical Equipment</option>
+                            <option value="NABL.html">NABL</option>
+                            <option value="nabh.html">NABH</option>
+                            <option value="jci.html">JCI Accredition</option>
+                            <option value="ayurveda.html">Ayurveda Hospital</option>
+                            <option value="parents-care.html">Parents Care Plan</option>
+                            <option value="bloodBank.html">Blood Bank Setup</option>
+                            <option value="tele-medicine-services.html">Tele-Medicine Services</option>
+                          </select></li>
+    
+    
+                    <li><a href="#media">SEGMENTS</a>
+                        <select class="nav-drop-select" id="pageSelect-segment" onchange="segment_navigate()">
+                            <option value=""></option>
+                            <!-- <option value="Hospital.html">HOSPITALS</option> -->
+                            <option value="hospitalProjectUpgradation.html">PROJECT UPGRADATION</option>
+                            <option value="hospital-staf-training.html">HR</option>
+                          </select>
+                          
+                </li>
+    
+    
+                    <li><a href="client.html">CLIENTS</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </div>
+            </div>
+        </div>
+    
+    
+        <img  class="logo-image" src="img/1592655058633.jpg" alt="">
+    
+       <nav class="nav-wrapper">
+        <div class="menu-bar">
+            <div class="nav-drop">
+                <ul class="nav-link">
+                  <li class="nav-head-link"><a class="nav-address" href="index.html">HOME</a></li>
+                  <li class="nav-head-link"><a class="nav-address" href="Hospital.html">ABOUT US</a>
+                    <ul  class="dropdown">
+                        <li><a href="director.html">DIRECTOR</a></li>
+                      </ul>
+                </li>
+                  <li class="nav-head-link"><a class="nav-address" href="service.html">SERVICE</a>
+                    <ul  class="dropdown">
+                        <li class="nav-head-link">
+                            <a href="icuSetup.html">ICU Setup</a>
+                        </li>
+                        <li class="nav-head-link">
+                            <a href="medicall-staff-solution.html">medical staff solution </a>
+                        </li>
+                        <li class="nav-head-link">
+                            <a href="DoctorServices.html">Doctor Services</a>
+                        </li>
+                        <li class="nav-head-link">
+                            <a href="medical-equipment.html">Medical Equipment</a>
+                        </li>
+                        <li class="nav-head-link">
+                            <a href="NABL.html">NABL</a>
+                        </li>
+                        <li class="nav-head-link">
+                            <a href="nabh.html">NABH</a>
+                        </li>
+                        <li class="nav-head-link">
+                            <a href="jci.html">JCI Accredition</a>
+                        </li>
+                        <li class="nav-head-link">
+                            <a href="ayurveda.html">Ayurveda Hospital</a>
+                        </li>
+                        <li class="nav-head-link">
+                            <a href="parents-care.html">Parents Care Plan</a>
+                        </li>
+                        <li class="nav-head-link">
+                            <a href="bloodBank.html">Blood Bank Setup</a>
+                        </li>
+                        <li class="nav-head-link">
+                            <a href="tele-medicine-services.html">Tele-Medicine Services</a>
+                        </li>
+                    </ul>
+                  </li>
+                  <li class="nav-head-link">
+                    <a class="nav-address" href="#0">SEGMENTS</a>
+                    <ul class="dropdown">
+                        <!-- <li><a href="Hospital.html">HOSPITALS</a></li> -->
+                        <li><a href="hospitalProjectUpgradation.html">PROJECT UPGRADATION</a></li>
+                      <!-- <li><a href="">STAFFING SOLUTIONS</a></li> -->
+                        <!-- <li><a href="">IMAGING SERVICES</a></li>
+                        <li><a href="">AYURVEDA HOSPITALS</a></li> -->
+                        <li><a href="hospital-staf-training.html">HR</a></li>
+                        <!-- <li><a href="">WELLNESS</a> </li> -->
+                    
+                    </ul>
+                  </li>
+                  <li  class="nav-head-link"><a class="nav-address" href="client.html">CLIENTS</a></li>
+    
+                  <li  class="nav-head-link"><a class="nav-address" href="contact.html">CONTACT US</a></li>
+                </ul>
+              </div>
+        </div>
+       </nav>
+       </header>
+    
+    
+<!-- main content you have to start from here -->
+<h1 class="heading">Our Current Hospital</h1>
+<section id="image-section">
+    <div class="client-image">
+        <img src="img/client1.PNG" alt="Avatar" >
+    </div>
+      
+    <div class="client-image">
+        <img src="img/client2.PNG" alt="Avatar" >
+    </div>
+    <div class="client-image">
+        <img src="img/client3.PNG" alt="Avatar" >
+    </div>
+    <div class="client-image">
+        <img src="img/client4.PNG" alt="Avatar" >
+    </div>
+    <div class="client-image">
+        <img src="img/client5.PNG" alt="Avatar" >
+    </div>
+    <div class="client-image">
+        <img src="img/client6.PNG" alt="Avatar" >
+    </div>
+    </section>
+
+    <section id="contact-us-form">
+           
+        <div class="container">
+         <div class="contact-box">
+             <div class="left-content">
+                <div style="width: 100%"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=11/52,%20Muslim%20Street,%20Thengamputhur,%20Tamil%20Nadu%20639602+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div>
+             </div>
+             <div class="right-content">
+                 <h2>Contact Us</h2>
+                 <p>Have a question, feedback, or need assistance? We're here to help! Please fill out the form below, and we'll get back to you as soon as possible.
+             </p>
+     <form  action="https://formspree.io/f/xayrpvdl"
+     method="POST" class="frmContactUs">
+         <label for="name">Your Name:</label>
+         <input type="text" id="name" name="name" placeholder="Enter your name" required>
+ 
+         <label for="email">Your Email:</label>
+         <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+         
+         <label for="subject">Subject</label>
+         <input type="text" id="subject" name="subject" placeholder="How can we help you?" required>
+ 
+         <label for="message">requirment:</label>
+         <textarea id="message" name="message" rows="4" placeholder="comments" required></textarea>
+ 
+         <button type="submit">Send Message</button>
+     </form>
+             </div>
+         </div>
+        </div>
+         
+     </section>
+
+
+
+<!-- footer content is here -->
+
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-column">
+                <h4>Our Address</h4>
+                <p>Muslim Street<br>Thengamputhur <br>TamilNadu,639602</p>
+                <p>  <a href="mailto: info@shifahealth.com"> <i class="fas fa-envelope"></i> info@shifahealth.com</a></p>
+                <p> <a href="tel:+919940496796"> <i class="fas fa-phone"></i> +91-9940496796</a></p>
+            </div>
+            <div class="footer-column">
+                <h4>Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Hospital.html">About Us</a></li>
+                    <li><a href="service.html">Services</a></li>
+                    <li><a href="client.html">client</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Follow Us</h4>
+                <ul class="social-media">
+                    <li><a href="#"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                    <li><a href="#"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy;2022 Shifa Health Care & Multi-Bussiness Pvt Ltd. Designed By <a href="#" style="text-decoration: none;">OIMSIT</a>. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

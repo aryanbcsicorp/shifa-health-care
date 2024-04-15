@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PARENTS CARE PLAN</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="top-bar"  >
+        <a href="tel:+919940496796"> <i class="fas fa-phone"></i> +91-9940496796</a>
+        <a href="mailto: info@shifahealth.com"> <i class="fas fa-envelope"></i> info@shifahealth.com</a>
+        <a href="#"><i class="uil uil-comment"></i>Support Team Chat</a>
+       </div>
+       <header class="header-section">
+
+        <div class="navbar-resp">
+            <div class="container-resp nav-container-resp">
+                <input class="checkbox" type="checkbox" name="" id="" />
+                <div class="hamburger-lines">
+                    <span class="line line1"></span>
+                    <span class="line line2"></span>
+                    <span class="line line3"></span>
+                </div>
+                <div class="logo-nav"><a href="#nav">
+                        <img class="logo-img" src="img/1592655058633.jpg" alt=""></a>
+                </div>
+                <div class="menu-items">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="Hospital.html">ABOUT US</a>
+                        <select class="nav-drop-select" id="pageSelect" onchange="navigate()">
+                            <option value=""></option>
+                            <option value="director.html"><Span class="menu-content">DIRECTOR</Span></option>
+                          </select>
+                    </li>
+    
+    
+    
+    
+                    <li><a href="service.html">SERVICES</a>
+                        <select class="nav-drop-select" id="pageSelect-service" onchange="service_navigate()">
+                            <option value=""></option>
+                            <option value="icuSetup.html">ICU Setup</option>
+                            <option value="medicall-staff-solution.html">Medical Staff Solution</option>
+                            <option value="DoctorServices.html">Doctor Services</option>
+                            <option value="medical-equipment.html">Medical Equipment</option>
+                            <option value="NABL.html">NABL</option>
+                            <option value="nabh.html">NABH</option>
+                            <option value="jci.html">JCI Accredition</option>
+                            <option value="ayurveda.html">Ayurveda Hospital</option>
+                            <option value="parents-care.html">Parents Care Plan</option>
+                            <option value="bloodBank.html">Blood Bank Setup</option>
+                            <option value="tele-medicine-services.html">Tele-Medicine Services</option>
+                          </select></li>
+    
+    
+                    <li><a href="#media">SEGMENTS</a>
+                        <select class="nav-drop-select" id="pageSelect-segment" onchange="segment_navigate()">
+                            <option value=""></option>
+                            <!-- <option value="Hospital.html">HOSPITALS</option> -->
+                            <option value="hospitalProjectUpgradation.html">PROJECT UPGRADATION</option>
+                            <option value="hospital-staf-training.html">HR</option>
+                          </select>
+                          
+                </li>
+    
+    
+                    <li><a href="client.html">CLIENTS</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </div>
+            </div>
+        </div>
+    
+    
+        <img  class="logo-image" src="img/1592655058633.jpg" alt="">
+    
+       <nav class="nav-wrapper">
+        <div class="menu-bar">
+            <div class="nav-drop">
+                <ul class="nav-link">
+                  <li class="nav-head-link"><a class="nav-address" href="index.html">HOME</a></li>
+                  <li class="nav-head-link"><a class="nav-address" href="Hospital.html">ABOUT US</a>
+                    <ul  class="dropdown">
+                        <li><a href="director.html">DIRECTOR</a></li>
+                      </ul>
+                </li>
+                  <li class="nav-head-link"><a class="nav-address" href="service.html">SERVICE</a>
+                    <ul  class="dropdown">
+                        <li class="nav-head-link">
+                            <a href="icuSetup.html">ICU Setup</a>
+                        </li>
+                        <li class="nav-head-link">
+                            <a href="medicall-staff-solution.html">medical staff solution </a>
+                        </li>
+                        <li class="nav-head-link">
+                            <a href="DoctorServices.html">Doctor Services</a>
+                        </li>
+                        <li class="nav-head-link">
+                            <a href="medical-equipment.html">Medical Equipment</a>
+                        </li>
+                        <li class="nav-head-link">
+                            <a href="NABL.html">NABL</a>
+                        </li>
+                        <li class="nav-head-link">
+                            <a href="nabh.html">NABH</a>
+                        </li>
+                        <li class="nav-head-link">
+                            <a href="jci.html">JCI Accredition</a>
+                        </li>
+                        <li class="nav-head-link">
+                            <a href="ayurveda.html">Ayurveda Hospital</a>
+                        </li>
+                        <li class="nav-head-link">
+                            <a href="parents-care.html">Parents Care Plan</a>
+                        </li>
+                        <li class="nav-head-link">
+                            <a href="bloodBank.html">Blood Bank Setup</a>
+                        </li>
+                        <li class="nav-head-link">
+                            <a href="tele-medicine-services.html">Tele-Medicine Services</a>
+                        </li>
+                    </ul>
+                  </li>
+                  <li class="nav-head-link">
+                    <a class="nav-address" href="#0">SEGMENTS</a>
+                    <ul class="dropdown">
+                        <!-- <li><a href="Hospital.html">HOSPITALS</a></li> -->
+                        <li><a href="hospitalProjectUpgradation.html">PROJECT UPGRADATION</a></li>
+                      <!-- <li><a href="">STAFFING SOLUTIONS</a></li> -->
+                        <!-- <li><a href="">IMAGING SERVICES</a></li>
+                        <li><a href="">AYURVEDA HOSPITALS</a></li> -->
+                        <li><a href="hospital-staf-training.html">HR</a></li>
+                        <!-- <li><a href="">WELLNESS</a> </li> -->
+                    
+                    </ul>
+                  </li>
+                  <li  class="nav-head-link"><a class="nav-address" href="client.html">CLIENTS</a></li>
+    
+                  <li  class="nav-head-link"><a class="nav-address" href="contact.html">CONTACT US</a></li>
+                </ul>
+              </div>
+        </div>
+       </nav>
+       </header>
+    
+    
+    <section class="upgradation">
+        <h1 class="heading" >Connecting Patients with Care: Our Telemedicine Services</h1>
+        <p>In today's fast-paced world, accessing quality healthcare should be convenient and accessible.We are committed to breaking down barriers to healthcare access through our innovative telemedicine services. With telemedicine, patients can receive medical care and consultations remotely, from the comfort of their own homes or while on the go, improving convenience, efficiency, and access to healthcare services.</p>
+        <p>Telemedicine involves the use of telecommunications technology to deliver healthcare services remotely. Through secure video conferencing, telephone calls, messaging platforms, and mobile apps, patients can consult with healthcare providers, receive medical advice, and access a range of healthcare services without the need for an in-person visit.</p>
+             </section>
+
+    <div class="Upgradation-image-grid" >
+        <div class="Upgradation-image">
+            <img src="https://source.unsplash.com/1600x900/?tele-medicine" alt="">
+        </div>
+
+        <div class="Upgradation-image">
+            <img src="https://source.unsplash.com/1600x900/?doctor-call" alt="">
+        </div>
+
+        <div class="Upgradation-image">
+            <img src="https://source.unsplash.com/1600x900/?medicine,telephone" alt="" >
+        </div>
+       
+    </div>
+        <div class="Upgradation-image">
+           <h3 class="heading">Benfits and Comprehensive Telemedicine Services</h3><br/>
+          
+           <ul class="upgradition-list">
+            <li class="upgradition-list1"><i class="fa-solid fa-arrow-right"></i>Virtual Consultations: Patients can schedule virtual appointments with our healthcare providers for non-emergency medical concerns, routine check-ups, medication refills, and follow-up visits. During these virtual consultations, patients can discuss their symptoms, receive medical advice, and develop treatment plans tailored to their needs.</li>
+            <li class="upgradition-list1"><i class="fa-solid fa-arrow-right"></i>Specialist Consultations: Our telemedicine platform enables patients to access specialist care without the need for referrals or travel. Whether it's a consultation with a cardiologist, dermatologist, psychiatrist, or any other specialist, patients can connect with experts in various medical fields conveniently and efficiently.</li>
+            <li class="upgradition-list1"><i class="fa-solid fa-arrow-right"></i>Medication Management: Through telemedicine, patients can request prescription refills, discuss medication concerns, and receive guidance on medication adherence and management from their healthcare providers.</li>
+            <li class="upgradition-list1"><i class="fa-solid fa-arrow-right"></i>Remote Monitoring: For patients managing chronic conditions such as diabetes, hypertension, or heart disease, our telemedicine platform offers remote monitoring solutions. Patients can upload vital signs, blood glucose readings, or other health data for review by their healthcare team, allowing for proactive management and timely intervention.</li>
+            <li class="upgradition-list1"><i class="fa-solid fa-arrow-right"></i>Mental Health Services: Telemedicine provides a convenient and confidential platform for patients to access mental health services, including counseling, therapy, and psychiatric consultations. Our licensed therapists and psychiatrists offer support for a wide range of mental health concerns, promoting emotional well-being and resilience.</li>
+            <li class="upgradition-list1"><i class="fa-solid fa-arrow-right"></i>Convenience: Telemedicine eliminates the need for travel and waiting rooms, allowing patients to access healthcare services from anywhere with an internet connection or phone signal.</li>
+            <li class="upgradition-list1"><i class="fa-solid fa-arrow-right"></i>Accessibility: Telemedicine expands access to healthcare services for patients in remote or underserved areas, those with mobility limitations, and individuals with busy schedules.</li>
+            <li class="upgradition-list1"><i class="fa-solid fa-arrow-right"></i>Cost Savings: By reducing the need for in-person visits, telemedicine can lower healthcare costs associated with transportation, childcare, and missed work.</li>
+            <li class="upgradition-list1"><i class="fa-solid fa-arrow-right"></i>Continuity of Care: Telemedicine enables seamless communication and coordination between patients and healthcare providers, ensuring continuity of care and timely access to medical advice and interventions.</li>
+            <li class="upgradition-list1"><i class="fa-solid fa-arrow-right"></i>Patient Engagement: Telemedicine empowers patients to take an active role in their healthcare by providing convenient tools for communication, education, and self-management.</li>
+          
+            
+           </ul>
+        </div>
+
+  
+
+
+        <div class="appointment-header">
+            <h1 class="heading">Book an Appointment</h1>
+        </div>
+        <main>
+            <form action="https://formspree.io/f/xayrpvdl" method="POST" class="appointment-form">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required class="appointment-input"><br>
+    
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required class="appointment-input"><br>
+    
+                <label for="phone">Your Phone:</label>
+                <input type="tel" id="phone" name="phone" required class="appointment-input"><br>
+    
+                <label for="doctor">Select Doctor:</label>
+                <select id="doctor" name="doctor" required class="appointment-input">
+                    <option value="Dr. John Doe">Dr. John Doe</option>
+                    <option value="Dr. Jane Smith">Dr. Jane Smith</option>
+                    <!-- Add more options for other doctors -->
+                </select><br><br>
+    
+                <label for="date">Preferred Date:</label>
+                <input type="date" id="date" name="date" required class="appointment-input"><br>
+    
+                <label for="time">Preferred Time:</label>
+                <input type="time" id="time" name="time" required class="appointment-input"><br>
+    
+                <input type="submit" value="Book Appointment" class="appointment-input">
+            </form>
+        </main>
+
+
+
+         <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-column">
+                        <h4>Our Address</h4>
+                        <p>Muslim Street<br>Thengamputhur <br>TamilNadu,639602</p>
+                        <p>  <a href="mailto: info@shifahealth.com"> <i class="fas fa-envelope"></i> info@shifahealth.com</a></p>
+                        <p> <a href="tel:+919940496796"> <i class="fas fa-phone"></i> +91-9940496796</a></p>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Quick Links</h4>
+                        <ul class="footer-links">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="Hospital.html">About Us</a></li>
+                            <li><a href="service.html">Services</a></li>
+                            <li><a href="client.html">client</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Follow Us</h4>
+                        <ul class="social-media">
+                            <li><a href="#"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                            <li><a href="#"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>&copy;2022 Shifa Health Care & Multi-Bussiness Pvt Ltd. Designed By <a href="#" style="text-decoration: none;">OIMSIT</a>. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+        
+</body>
+</html>

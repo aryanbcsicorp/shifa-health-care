@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assan's Shifa health care</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+    
+    <script  src="script.js"></script>
+</head>
+<body>
+   <div class="top-bar"  >
+    <a href="tel:+919940496796"> <i class="fas fa-phone"></i> +91-9940496796</a>
+    <a href="mailto: info@shifahealth.com"> <i class="fas fa-envelope"></i> info@shifahealth.com</a>
+    <a href="#"><i class="uil uil-comment"></i>Support Team Chat</a>
+   </div>
+   <header class="header-section">
+
+    <div class="navbar-resp">
+        <div class="container-resp nav-container-resp">
+            <input class="checkbox" type="checkbox" name="" id="" />
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <div class="logo-nav"><a href="#nav">
+                    <img class="logo-img" src="img/1592655058633.jpg" alt=""></a>
+            </div>
+            <div class="menu-items">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="Hospital.html">ABOUT US</a>
+                    <select class="nav-drop-select" id="pageSelect" onchange="navigate()">
+                        <option value=""></option>
+                        <option value="director.html"><Span class="menu-content">DIRECTOR</Span></option>
+                      </select>
+                </li>
+
+
+
+
+                <li><a href="service.html">SERVICES</a>
+                    <select class="nav-drop-select" id="pageSelect-service" onchange="service_navigate()">
+                        <option value=""></option>
+                        <option value="icuSetup.html">ICU Setup</option>
+                        <option value="medicall-staff-solution.html">Medical Staff Solution</option>
+                        <option value="DoctorServices.html">Doctor Services</option>
+                        <option value="medical-equipment.html">Medical Equipment</option>
+                        <option value="NABL.html">NABL</option>
+                        <option value="nabh.html">NABH</option>
+                        <option value="jci.html">JCI Accredition</option>
+                        <option value="ayurveda.html">Ayurveda Hospital</option>
+                        <option value="parents-care.html">Parents Care Plan</option>
+                        <option value="bloodBank.html">Blood Bank Setup</option>
+                        <option value="tele-medicine-services.html">Tele-Medicine Services</option>
+                      </select></li>
+
+
+                <li><a href="#media">SEGMENTS</a>
+                    <select class="nav-drop-select" id="pageSelect-segment" onchange="segment_navigate()">
+                        <option value=""></option>
+                        <!-- <option value="Hospital.html">HOSPITALS</option> -->
+                        <option value="hospitalProjectUpgradation.html">PROJECT UPGRADATION</option>
+                        <option value="hospital-staf-training.html">HR</option>
+                      </select>
+                      
+            </li>
+
+
+                <li><a href="client.html">CLIENTS</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+            </div>
+        </div>
+    </div>
+
+
+    <img  class="logo-image" src="img/1592655058633.jpg" alt="">
+
+   <nav class="nav-wrapper">
+    <div class="menu-bar">
+        <div class="nav-drop">
+            <ul class="nav-link">
+              <li class="nav-head-link"><a class="nav-address" href="index.html">HOME</a></li>
+              <li class="nav-head-link"><a class="nav-address" href="Hospital.html">ABOUT US</a>
+                <ul  class="dropdown">
+                    <li><a href="director.html">DIRECTOR</a></li>
+                  </ul>
+            </li>
+              <li class="nav-head-link"><a class="nav-address" href="service.html">SERVICE</a>
+                <ul  class="dropdown">
+                    <li class="nav-head-link">
+                        <a href="icuSetup.html">ICU Setup</a>
+                    </li>
+                    <li class="nav-head-link">
+                        <a href="medicall-staff-solution.html">medical staff solution </a>
+                    </li>
+                    <li class="nav-head-link">
+                        <a href="DoctorServices.html">Doctor Services</a>
+                    </li>
+                    <li class="nav-head-link">
+                        <a href="medical-equipment.html">Medical Equipment</a>
+                    </li>
+                    <li class="nav-head-link">
+                        <a href="NABL.html">NABL</a>
+                    </li>
+                    <li class="nav-head-link">
+                        <a href="nabh.html">NABH</a>
+                    </li>
+                    <li class="nav-head-link">
+                        <a href="jci.html">JCI Accredition</a>
+                    </li>
+                    <li class="nav-head-link">
+                        <a href="ayurveda.html">Ayurveda Hospital</a>
+                    </li>
+                    <li class="nav-head-link">
+                        <a href="parents-care.html">Parents Care Plan</a>
+                    </li>
+                    <li class="nav-head-link">
+                        <a href="bloodBank.html">Blood Bank Setup</a>
+                    </li>
+                    <li class="nav-head-link">
+                        <a href="tele-medicine-services.html">Tele-Medicine Services</a>
+                    </li>
+                </ul>
+              </li>
+              <li class="nav-head-link">
+                <a class="nav-address" href="#0">SEGMENTS</a>
+                <ul class="dropdown">
+                    <!-- <li><a href="Hospital.html">HOSPITALS</a></li> -->
+                    <li><a href="hospitalProjectUpgradation.html">PROJECT UPGRADATION</a></li>
+                  <!-- <li><a href="">STAFFING SOLUTIONS</a></li> -->
+                    <!-- <li><a href="">IMAGING SERVICES</a></li>
+                    <li><a href="">AYURVEDA HOSPITALS</a></li> -->
+                    <li><a href="hospital-staf-training.html">HR</a></li>
+                    <!-- <li><a href="">WELLNESS</a> </li> -->
+                
+                </ul>
+              </li>
+              <li  class="nav-head-link"><a class="nav-address" href="client.html">CLIENTS</a></li>
+
+              <li  class="nav-head-link"><a class="nav-address" href="contact.html">CONTACT US</a></li>
+            </ul>
+          </div>
+    </div>
+   </nav>
+   </header>
+
+
+   <section id="service-section ">
+    <h1 class="heading"> Our best services</h1>
+   <div class="service-wrapper">
+     <div class="service-name">
+         <div class="service-card">
+             <p><i class="fa-solid fa-bed-pulse"></i></p>
+             <h2><a href="icuSetup.html">icu setup </a></h2>
+         </div>
+         <div class="service-card">
+             <p><i class="fa-solid fa-user-doctor"></i></p>
+             <h2> <a href="medicall-staff-solution.html">medical staff solution </a></h2>
+         </div>
+         <div class="service-card">
+             <p><i class="fa-solid fa-house-medical-flag"></i></p>
+             <h2> <a href="hospitalProjectUpgradation.html">Hospital project upgradation</a></h2>
+         </div>
+         <div class="service-card">
+             <p><i class="fa-solid fa-user-doctor"></i></p>
+             <h2> <a href="DoctorServices.html">doctor services</a></h2>
+         </div>
+         <div class="service-card">
+             <p><i class="fa-solid fa-vial"></i></p>
+             <h2><a href="medical-equipment.html">medical equipment</a></h2>
+         </div>
+         <div class="service-card">
+             <p><i class="uil uil-briefcase"></i></p>
+             <h2> <a href="NABL.html">nabl</a></h2>
+         </div>
+         <div class="service-card">
+             <p><i class="fa-solid fa-hand-dots"></i></p>
+             <h2> <a href="nabh.html">nabh</a></h2>
+         </div>
+         <div class="service-card">
+             <p><i class="uil uil-assistive-listening-systems"></i></p>
+             <h2>  <a href="jci.html">jci accredition</a></h2>
+         </div>
+         <div class="service-card">
+             <p><i class="fa-solid fa-mortar-pestle"></i></p>
+             <h2> <a href="ayurveda.html">ayurveda hospital</a></h2>
+         </div>
+         <div class="service-card">
+             <p><i class="fa-solid fa-person-breastfeeding"></i></p>
+             <h2><a href="parents-care.html">parents care plan</a></h2>
+         </div>
+         <div class="service-card">
+             <p><i class="fa-solid fa-hand-holding-droplet"></i></p>
+             <h2><a href="bloodBank.html">blood bank setup</a></h2>
+         </div>
+         <div class="service-card">
+             <p><i class="uil uil-phone"></i></p>
+             <h2><a href="tele-medicine-services.html">tele-medicine services</a></h2>
+         </div>
+     </div>
+ 
+ 
+     <div class="service-form" >
+         <div class="form-heading">
+             <p>Caring for your loved ones, as our own, at the comfort of your requirment- <span>BOOK OR ENQUIRE NOW </span></p>
+         </div>
+   <form class="service-form"  action="https://formspree.io/f/mbjnzway"
+   method="POST" >
+     <input type="text" name="name" placeholder="Name"  id="name"required >
+     <input type="email" name="email" placeholder="Email" id="email" required >
+     <input type="tel" name="mobile" placeholder="Mobile Number" id="mobile" required >
+ 
+     <select name="service" id="service" required>
+       <option value="">Select a service</option>
+       <option value="icu-setup">ICU Setup</option>
+       <option value="medical-staff-solution">Medical Staff Solution</option>
+       <option value="hospital-project-upgradation">Hospital Project Upgradation</option>
+       <option value="doctor-services">Doctor Services</option>
+       <option value="medical-equipment">Medical Equipment</option>
+       <option value="nabl">NABL</option>
+       <option value="nabh">NABH</option>
+       <option value="jci-accredition">JCI Accredition</option>
+       <option value="ayurveda-hospital">Ayurveda Hospital</option>
+       <option value="parents-care-plan">Parents Care Plan</option>
+       <option value="blood-bank-setup">Blood Bank Setup</option>
+       <option value="digital-monitoring">Digital Monitoring</option>
+       <option value="tele-medicine-services">Tele-Medicine Services</option>
+     </select>
+     <button type="submit">Submit</button>
+   </form>
+     </div>
+ 
+   </div>
+    </section>
+   <!-- Card -->
+   <section class="card-section">
+    <div class="card">
+        <img src="img/secondopenion.png" alt="Avatar" style="width:100%">
+        <div class="container">
+          <h4><b>Second Openion</b></h4> 
+          <p>Confirm diagnosis and take informed decision about your treatement plan with some of india'top experts</p> 
+        </div>
+    </div>
+      
+    <div class="card">
+        <img src="img/Air ambulance.png" alt="Avatar" style="width:100%">
+        <div class="container">
+          <h4><b>Air Ambulance</b></h4> 
+          <p>We are equipped to treat and transport critically ill patient across the country</p> 
+        </div>
+    </div>
+    <div class="card">
+        <img src="img/homecareservice.png" alt="Avatar" style="width:100%">
+        <div class="container">
+          <h4><b>Homecare Service</b></h4> 
+          <p>We continue to give the best care possible,even after you reach home</p> 
+        </div>
+    </div>
+    <div class="card">
+        <img src="img/Healthcheck.jpg" alt="Avatar" style="width:100%">
+        <div class="container">
+          <h4><b>Health Check</b></h4> 
+          <p>Take charge of your well-being with a health experince customised for you</p> 
+        </div>
+    </div>
+    <div class="card">
+        <img src="img/card image4.jpg" alt="Avatar" style="width:100%">
+        <div class="container">
+          <h4><b>All-inclusive Care</b></h4> 
+          <p>We are committed to addressing all your healthcare needs, offering services ranging from hospitals and clinics to labs, pharmacies, and insurance. Our goal is to provide a comprehensive and personalised healthcare experience that best serves you.</p> 
+        </div>
+    </div>
+    <div class="card">
+        <img src="img/Buyinhmedicine1.jpg" alt="Avatar" style="width:100%">
+        <div class="container">
+          <h4><b>TeleMedicine</b></h4> 
+          <p>Reach Assan's Shifa health care'expert no matter where you live </p> 
+        </div>
+    </div>
+    </section>
+
+    <section id="hospital-infographic">
+        <img src="img/hospial1.PNG" alt="" srcset="" height="90%" width="90%">
+        <div class="hospital-infographic-service">
+            <p>Building a healtcare can be a complex job which require synerrgizing a wide spectrum of professionals.This can be an arduous task for anyone planning to bulid a facility.In order to set up a healthcare planning,designing and management as well as technical known-how is required.</p>
+            <p>A complete healthcare facility setup in INDIA,might require lot of complex approvals from various department like municipality,Lucknow,Hydarbad,Gorakhpur,Maharajganj.This might be congusing for people inexperienced with INDIA health laws.This is Where the service of <span >Shifa Health Care & Multi-business Pvt Ltd.</span>come in.We offer our service to healthcare facilities in the INDIA.Our team consists of highly qualified and motivated experts from the various field of planning,designing & management.</p>
+            <p>Procedures can be easily handled and move much faster if correct paperwork and licensing requirment are submitted by experinced people. We handel many clients and can ease up the whole process of setting up a clinic or healthcare facility.Our team will do it from A-Z,saving your precious time and money by speeding up the process and doing the right job from first day itslf.</p>
+            <p>We do get cases who have tried their luck for more than 1 year and still been unsuccessful in fetting approvals.However,subject to correct paper work we can get all approvals in record time.</p>
+            <p><span>Time is Money</span> Most of the times we meet clients,who have narrowed down on a palace,started paying rents for the same,hired staff,bought,equipment and literally it's like a taxi whose meter is ticking,howeever The only difference is that this mater is in hundreds and thousands of dirhams <br><br>Such mounting expense a bigger night mare when they don't get approvals on time.</p>
+            <p>Most of the times Novice PRO or other companies who claim to be expert in all government jobs have no idea "How the health departments and regulations work" and this trial and error of application submission and cancellation further ads to the client's vows.</p>
+            <p><span>Shifa Health Care & Multi-bussiness Pvt Ltd</span> has been in the healthcare industry for more then 15 years,with bussiness interests in HEALTH CARE consultancy,clinics,education and media etc.</p>
+            <p>The sole of providid this service is to SAVE TIME for clients.We understand the importance of time in INDIA and how the rent and other expenses keep mounting up.We submit more than 50-100 Application on a monthly basis and know all the proper work and requirment for the approvals of your healthcare facility.</p>
+            <p>Parnering with us will ensure you will get all approvals in record time with No or less chances of any rejection.Moreever we can take over the entire turnkey project and assist in the following:</p>
+        <div class="hospital-infographic-content">
+            <div class="hospital-infographic-list-container">
+                <ul class="hospital-infographic-list">
+                    <li> <i class="fa-solid fa-arrow-right"></i>  Recruitment of staff</li>
+                    <li> <i class="fa-solid fa-arrow-right"></i>  Interior</li>
+                    <li> <i class="fa-solid fa-arrow-right"></i>  Municipality approvals</li>
+                    <li> <i class="fa-solid fa-arrow-right"></i>  Sourcing of Machines and Equipment's</li>
+                    <li> <i class="fa-solid fa-arrow-right"></i>  Management and training</li>
+                    <li> <i class="fa-solid fa-arrow-right"></i>  Media and marketing</li>
+                </ul>
+            </div>
+            <div class="service-image">
+                <img src="img/hospital2.PNG" alt="service-img">
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- Card section end -->
+    <section id="contact-us-form">
+           
+        <div class="container">
+         <div class="contact-box">
+             <div class="left-content">
+                <div><iframe width="90vw" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=11/52,%20Muslim%20Street,%20Thengamputhur,%20Tamil%20Nadu%20639602+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div>
+             </div>
+             <div class="right-content">
+                 <h2>Contact Us</h2>
+                 <p>Have a question, feedback, or need assistance? We're here to help! Please fill out the form below, and we'll get back to you as soon as possible.
+             </p>
+     <form  action="https://formspree.io/f/xayrpvdl"
+     method="POST" class="frmContactUs">
+         <label for="name">Your Name:</label>
+         <input type="text" id="name" name="name" placeholder="Enter your name" required>
+ 
+         <label for="email">Your Email:</label>
+         <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+         
+         <label for="subject">Subject</label>
+         <input type="text" id="subject" name="subject" placeholder="How can we help you?" required>
+ 
+         <label for="message">requirment:</label>
+         <textarea id="message" name="message" rows="4" placeholder="comments" required></textarea>
+ 
+         <button type="submit">Send Message</button>
+     </form>
+             </div>
+         </div>
+        </div>
+         
+     </section>
+     <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h4>Our Address</h4>
+                    <p>Muslim Street<br>Thengamputhur <br>TamilNadu,639602</p>
+                    <p>  <a href="mailto: info@shifahealth.com"> <i class="fas fa-envelope"></i> info@shifahealth.com</a></p>
+                    <p> <a href="tel:+919940496796"> <i class="fas fa-phone"></i> +91-9940496796</a></p>
+                </div>
+                <div class="footer-column">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Hospital.html">About Us</a></li>
+                        <li><a href="service.html">Services</a></li>
+                        <li><a href="client.html">client</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Follow Us</h4>
+                    <ul class="social-media">
+                        <li><a href="#"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                        <li><a href="#"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy;2022 Shifa Health Care & Multi-Bussiness Pvt Ltd. Designed By <a href="#" style="text-decoration: none;">OIMSIT</a>. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+
+    <script  src="script.js"></script>
+</body>
+</html>

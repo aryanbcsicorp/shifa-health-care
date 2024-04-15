@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JCI</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="top-bar"  >
+        <a href="tel:+919940496796"> <i class="fas fa-phone"></i> +91-9940496796</a>
+        <a href="mailto: info@shifahealth.com"> <i class="fas fa-envelope"></i> info@shifahealth.com</a>
+        <a href="#"><i class="uil uil-comment"></i>Support Team Chat</a>
+       </div>
+       <header class="header-section">
+
+        <div class="navbar-resp">
+            <div class="container-resp nav-container-resp">
+                <input class="checkbox" type="checkbox" name="" id="" />
+                <div class="hamburger-lines">
+                    <span class="line line1"></span>
+                    <span class="line line2"></span>
+                    <span class="line line3"></span>
+                </div>
+                <div class="logo-nav"><a href="#nav">
+                        <img class="logo-img" src="img/1592655058633.jpg" alt=""></a>
+                </div>
+                <div class="menu-items">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="Hospital.html">ABOUT US</a>
+                        <select class="nav-drop-select" id="pageSelect" onchange="navigate()">
+                            <option value=""></option>
+                            <option value="director.html"><Span class="menu-content">DIRECTOR</Span></option>
+                          </select>
+                    </li>
+    
+    
+    
+    
+                    <li><a href="service.html">SERVICES</a>
+                        <select class="nav-drop-select" id="pageSelect-service" onchange="service_navigate()">
+                            <option value=""></option>
+                            <option value="icuSetup.html">ICU Setup</option>
+                            <option value="medicall-staff-solution.html">Medical Staff Solution</option>
+                            <option value="DoctorServices.html">Doctor Services</option>
+                            <option value="medical-equipment.html">Medical Equipment</option>
+                            <option value="NABL.html">NABL</option>
+                            <option value="nabh.html">NABH</option>
+                            <option value="jci.html">JCI Accredition</option>
+                            <option value="ayurveda.html">Ayurveda Hospital</option>
+                            <option value="parents-care.html">Parents Care Plan</option>
+                            <option value="bloodBank.html">Blood Bank Setup</option>
+                            <option value="tele-medicine-services.html">Tele-Medicine Services</option>
+                          </select></li>
+    
+    
+                    <li><a href="#media">SEGMENTS</a>
+                        <select class="nav-drop-select" id="pageSelect-segment" onchange="segment_navigate()">
+                            <option value=""></option>
+                            <!-- <option value="Hospital.html">HOSPITALS</option> -->
+                            <option value="hospitalProjectUpgradation.html">PROJECT UPGRADATION</option>
+                            <option value="hospital-staf-training.html">HR</option>
+                          </select>
+                          
+                </li>
+    
+    
+                    <li><a href="client.html">CLIENTS</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </div>
+            </div>
+        </div>
+    
+    
+        <img  class="logo-image" src="img/1592655058633.jpg" alt="">
+    
+       <nav class="nav-wrapper">
+        <div class="menu-bar">
+            <div class="nav-drop">
+                <ul class="nav-link">
+                  <li class="nav-head-link"><a class="nav-address" href="index.html">HOME</a></li>
+                  <li class="nav-head-link"><a class="nav-address" href="Hospital.html">ABOUT US</a>
+                    <ul  class="dropdown">
+                        <li><a href="director.html">DIRECTOR</a></li>
+                      </ul>
+                </li>
+                  <li class="nav-head-link"><a class="nav-address" href="service.html">SERVICE</a>
+                    <ul  class="dropdown">
+                        <li class="nav-head-link">
+                            <a href="icuSetup.html">ICU Setup</a>
+                        </li>
+                        <li class="nav-head-link">
+                            <a href="medicall-staff-solution.html">medical staff solution </a>
+                        </li>
+                        <li class="nav-head-link">
+                            <a href="DoctorServices.html">Doctor Services</a>
+                        </li>
+                        <li class="nav-head-link">
+                            <a href="medical-equipment.html">Medical Equipment</a>
+                        </li>
+                        <li class="nav-head-link">
+                            <a href="NABL.html">NABL</a>
+                        </li>
+                        <li class="nav-head-link">
+                            <a href="nabh.html">NABH</a>
+                        </li>
+                        <li class="nav-head-link">
+                            <a href="jci.html">JCI Accredition</a>
+                        </li>
+                        <li class="nav-head-link">
+                            <a href="ayurveda.html">Ayurveda Hospital</a>
+                        </li>
+                        <li class="nav-head-link">
+                            <a href="parents-care.html">Parents Care Plan</a>
+                        </li>
+                        <li class="nav-head-link">
+                            <a href="bloodBank.html">Blood Bank Setup</a>
+                        </li>
+                        <li class="nav-head-link">
+                            <a href="tele-medicine-services.html">Tele-Medicine Services</a>
+                        </li>
+                    </ul>
+                  </li>
+                  <li class="nav-head-link">
+                    <a class="nav-address" href="#0">SEGMENTS</a>
+                    <ul class="dropdown">
+                        <!-- <li><a href="Hospital.html">HOSPITALS</a></li> -->
+                        <li><a href="hospitalProjectUpgradation.html">PROJECT UPGRADATION</a></li>
+                      <!-- <li><a href="">STAFFING SOLUTIONS</a></li> -->
+                        <!-- <li><a href="">IMAGING SERVICES</a></li>
+                        <li><a href="">AYURVEDA HOSPITALS</a></li> -->
+                        <li><a href="hospital-staf-training.html">HR</a></li>
+                        <!-- <li><a href="">WELLNESS</a> </li> -->
+                    
+                    </ul>
+                  </li>
+                  <li  class="nav-head-link"><a class="nav-address" href="client.html">CLIENTS</a></li>
+    
+                  <li  class="nav-head-link"><a class="nav-address" href="contact.html">CONTACT US</a></li>
+                </ul>
+              </div>
+        </div>
+       </nav>
+       </header>
+    
+    
+    
+    <section class="upgradation">
+        <h1 class="heading" >JCI</h1>
+        <p>we are proud to announce that we have achieved accreditation from the Joint Commission International (JCI), a globally recognized leader in healthcare quality and patient safety standards. This prestigious accreditation reaffirms our commitment to providing world-class healthcare services and upholding the highest standards of excellence in patient care, safety, and quality improvement.</p>
+         </section>
+
+
+        <div class="Upgradation-image">
+            <h1 class="heading" >What is JCI Accreditation?</h1>
+          <p>JCI accreditation is awarded to healthcare organizations that demonstrate compliance with rigorous standards for patient care, clinical outcomes, facility management, and continuous quality improvement. As a JCI-accredited institution has undergone thorough evaluation and met stringent criteria across various domains, including:</p>
+           <ul class="upgradition-list">
+             <li class="upgradition-list1"> <i class="fa-solid fa-arrow-right"></i>Patient Rights and Responsibilities</li>
+             <li class="upgradition-list1"> <i class="fa-solid fa-arrow-right"></i>Access to Care and Continuity of Care</li>
+             <li class="upgradition-list1"> <i class="fa-solid fa-arrow-right"></i>Patient and Family Education</li>
+             <li class="upgradition-list1"> <i class="fa-solid fa-arrow-right"></i>Infection Prevention and Control</li>
+             <li class="upgradition-list1"> <i class="fa-solid fa-arrow-right"></i>Governance and Leadership</li>
+             <li class="upgradition-list1"> <i class="fa-solid fa-arrow-right"></i>Facility Management and Safety</li>
+             <li class="upgradition-list1"> <i class="fa-solid fa-arrow-right"></i>Clinical Care</li>
+
+           </ul>
+        </div>
+
+        <div class="Upgradation-image">
+            <h5>1.Benefits of JCI Accreditation:</h5>
+            <ul class="upgradition-list">
+                <li class="upgradition-list1"> <i class="fa-solid fa-arrow-right"></i>Enhanced Patient Safety: JCI accreditation demonstrates our adherence to international standards for patient safety, infection control, and risk management practices, ensuring a safe and secure environment for our patients.</li> 
+                <li class="upgradition-list1"> <i class="fa-solid fa-arrow-right"></i>Quality Improvement: JCI accreditation fosters a culture of continuous quality improvement by providing frameworks, benchmarks, and best practices to enhance clinical outcomes, patient satisfaction, and organizational efficiency.</li> 
+                <li class="upgradition-list1"> <i class="fa-solid fa-arrow-right"></i>International Recognition: JCI accreditation is recognized worldwide as a symbol of healthcare quality and excellence, enhancing our reputation and credibility as a trusted healthcare provider.</li> 
+                <li class="upgradition-list1"> <i class="fa-solid fa-arrow-right"></i>Professional Development: JCI accreditation promotes professional development and accountability among our staff, encouraging ongoing education, training, and collaboration to maintain high standards of care.</li> 
+                <li class="upgradition-list1"> <i class="fa-solid fa-arrow-right"></i>Patient-Centered Care: JCI accreditation emphasizes patient-centered care principles, including respect for patient rights, communication, and involvement in decision-making, ensuring that patients receive compassionate, individualized care.</li> 
+                <li class="upgradition-list1"> <i class="fa-solid fa-arrow-right"></i>Community Confidence: JCI accreditation instills confidence and trust in our patients, their families, and the community we serve, affirming our commitment to providing safe, high-quality healthcare services.</li> 
+            </ul>
+         </div>
+
+
+         <div class="Upgradation-image">
+            <h5>2.Our Commitment to JCI Standards:</h5>
+            <ul class="upgradition-list">
+                <li class="upgradition-list1"> <i class="fa-solid fa-arrow-right"></i>We adhere to evidence-based clinical practices, protocols, and guidelines endorsed by JCI to ensure the delivery of safe, effective, and patient-centered care.</li> 
+                <li class="upgradition-list1"> <i class="fa-solid fa-arrow-right"></i>We continuously monitor and evaluate our performance against JCI standards, conducting regular audits, assessments, and quality improvement initiatives to identify areas for enhancement and drive organizational excellence.</li> 
+                <li class="upgradition-list1"> <i class="fa-solid fa-arrow-right"></i>We engage our staff, patients, and stakeholders in the accreditation process, fostering a culture of transparency, accountability, and collaboration to achieve and sustain JCI accreditation.</li> 
+            </ul>
+         </div>
+
+
+
+         <section id="contact-us-form">
+           
+            <div class="container">
+             <div class="contact-box">
+                 <div class="left-content">
+                    <div style="width: 100%"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=11/52,%20Muslim%20Street,%20Thengamputhur,%20Tamil%20Nadu%20639602+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div>
+                 </div>
+                 <div class="right-content">
+                     <h2>Contact Us</h2>
+                     <p>Have a question, feedback, or need assistance? We're here to help! Please fill out the form below, and we'll get back to you as soon as possible.
+                 </p>
+         <form  action="https://formspree.io/f/xayrpvdl"
+         method="POST" class="frmContactUs">
+             <label for="name">Your Name:</label>
+             <input type="text" id="name" name="name" placeholder="Enter your name" required>
+     
+             <label for="email">Your Email:</label>
+             <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+             
+             <label for="subject">Subject</label>
+             <input type="text" id="subject" name="subject" placeholder="How can we help you?" required>
+     
+             <label for="message">requirment:</label>
+             <textarea id="message" name="message" rows="4" placeholder="comments" required></textarea>
+     
+             <button type="submit">Send Message</button>
+         </form>
+                 </div>
+             </div>
+            </div>
+             
+         </section>
+
+         <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-column">
+                        <h4>Our Address</h4>
+                        <p>Muslim Street<br>Thengamputhur <br>TamilNadu,639602</p>
+                        <p>  <a href="mailto: info@shifahealth.com"> <i class="fas fa-envelope"></i> info@shifahealth.com</a></p>
+                        <p> <a href="tel:+919940496796"> <i class="fas fa-phone"></i> +91-9940496796</a></p>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Quick Links</h4>
+                        <ul class="footer-links">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="Hospital.html">About Us</a></li>
+                            <li><a href="service.html">Services</a></li>
+                            <li><a href="client.html">client</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Follow Us</h4>
+                        <ul class="social-media">
+                            <li><a href="#"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                            <li><a href="#"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>&copy;2022 Shifa Health Care & Multi-Bussiness Pvt Ltd. Designed By <a href="#" style="text-decoration: none;">OIMSIT</a>. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+        
+</body>
+</html>
