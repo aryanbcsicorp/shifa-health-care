@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Services</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="top-bar"  >
+        <a href="tel:+919940496796"> <i class="fas fa-phone"></i> +91-9940496796</a>
+        <a href="mailto: info@shifahealth.com"> <i class="fas fa-envelope"></i> info@shifahealth.com</a>
+        <a href="#"><i class="uil uil-comment"></i>Support Team Chat</a>
+       </div>
+       <header class="header-section">
+
+        <div class="navbar-resp">
+            <div class="container-resp nav-container-resp">
+                <input class="checkbox" type="checkbox" name="" id="" />
+                <div class="hamburger-lines">
+                    <span class="line line1"></span>
+                    <span class="line line2"></span>
+                    <span class="line line3"></span>
+                </div>
+                <div class="logo-nav"><a href="#nav">
+                        <img class="logo-img" src="img/1592655058633.jpg" alt=""></a>
+                </div>
+                <div class="menu-items">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="Hospital.html">ABOUT US</a>
+                        <select class="nav-drop-select" id="pageSelect" onchange="navigate()">
+                            <option value=""></option>
+                            <option value="director.html"><Span class="menu-content">DIRECTOR</Span></option>
+                          </select>
+                    </li>
+    
+    
+    
+    
+                    <li><a href="service.html">SERVICES</a>
+                        <select class="nav-drop-select" id="pageSelect-service" onchange="service_navigate()">
+                            <option value=""></option>
+                            <option value="icuSetup.html">ICU Setup</option>
+                            <option value="medicall-staff-solution.html">Medical Staff Solution</option>
+                            <option value="hospitalProjectUpgradation.html">Hospital Project Upgradation</option>
+                            <option value="DoctorServices.html">Doctor Services</option>
+                            <option value="medical-equipment.html">Medical Equipment</option>
+                            <option value="NABL.html">NABL</option>
+                            <option value="nabh.html">NABH</option>
+                            <option value="jci.html">JCI Accredition</option>
+                            <option value="ayurveda.html">Ayurveda Hospital</option>
+                            <option value="parents-care.html">Parents Care Plan</option>
+                            <option value="bloodBank.html">Blood Bank Setup</option>
+                            <option value="tele-medicine-services.html">Tele-Medicine Services</option>
+                          </select></li>
+    
+    
+                    <li><a href="#media">SEGMENTS</a>
+                        <select class="nav-drop-select" id="pageSelect-segment" onchange="segment_navigate()">
+                            <option value=""></option>
+                            <!-- <option value="Hospital.html">HOSPITALS</option> -->
+                            <option value="hospitalProjectUpgradation.html">PROJECT UPGRADATION</option>
+                            <option value="hospital-staf-training.html">HR</option>
+                          </select>
+                          
+                </li>
+    
+    
+                    <li><a href="client.html">CLIENTS</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </div>
+            </div>
+        </div>
+    
+    
+        <img  class="logo-image" src="img/1592655058633.jpg" alt="">
+    
+       <nav class="nav-wrapper">
+        <div class="menu-bar">
+            <div class="nav-drop">
+                <ul class="nav-link">
+                  <li class="nav-head-link"><a class="nav-address" href="index.html">HOME</a></li>
+                  <li class="nav-head-link"><a class="nav-address" href="Hospital.html">ABOUT US</a>
+                    <ul  class="dropdown">
+                        <li><a href="director.html">DIRECTOR</a></li>
+                      </ul>
+                </li>
+                  <li class="nav-head-link"><a class="nav-address" href="service.html">SERVICE</a>
+                    <ul  class="dropdown">
+                        <li class="nav-head-link">
+                            <a href="icuSetup.html">ICU Setup</a>
+                        </li>
+                        <li class="nav-head-link">
+                            <a href="medicall-staff-solution.html">medical staff solution </a>
+                        </li>
+                        <li class="nav-head-link">
+                            <a href="hospitalProjectUpgradation.html">Hospital Project Upgradation</a>
+                        </li>
+                        <li class="nav-head-link">
+                            <a href="DoctorServices.html">Doctor Services</a>
+                        </li>
+                        <li class="nav-head-link">
+                            <a href="medical-equipment.html">Medical Equipment</a>
+                        </li>
+                        <li class="nav-head-link">
+                            <a href="NABL.html">NABL</a>
+                        </li>
+                        <li class="nav-head-link">
+                            <a href="nabh.html">NABH</a>
+                        </li>
+                        <li class="nav-head-link">
+                            <a href="jci.html">JCI Accredition</a>
+                        </li>
+                        <li class="nav-head-link">
+                            <a href="ayurveda.html">Ayurveda Hospital</a>
+                        </li>
+                        <li class="nav-head-link">
+                            <a href="parents-care.html">Parents Care Plan</a>
+                        </li>
+                        <li class="nav-head-link">
+                            <a href="bloodBank.html">Blood Bank Setup</a>
+                        </li>
+                        <li class="nav-head-link">
+                            <a href="tele-medicine-services.html">Tele-Medicine Services</a>
+                        </li>
+                    </ul>
+                  </li>
+                  <li class="nav-head-link">
+                    <a class="nav-address" href="#0">SEGMENTS</a>
+                    <ul class="dropdown">
+                        <!-- <li><a href="Hospital.html">HOSPITALS</a></li> -->
+                        <li><a href="hospitalProjectUpgradation.html">PROJECT UPGRADATION</a></li>
+                      <!-- <li><a href="">STAFFING SOLUTIONS</a></li> -->
+                        <!-- <li><a href="">IMAGING SERVICES</a></li>
+                        <li><a href="">AYURVEDA HOSPITALS</a></li> -->
+                        <li><a href="hospital-staf-training.html">HR</a></li>
+                        <!-- <li><a href="">WELLNESS</a> </li> -->
+                    
+                    </ul>
+                  </li>
+                  <li  class="nav-head-link"><a class="nav-address" href="client.html">CLIENTS</a></li>
+    
+                  <li  class="nav-head-link"><a class="nav-address" href="contact.html">CONTACT US</a></li>
+                </ul>
+              </div>
+        </div>
+       </nav>
+       </header>
+    
+    
+    <section class="upgradation">
+        <h1 class="heading" >Doctor Services: Your Partner in Personalized Healthcare</h1>
+        <p> our team of dedicated doctors is committed to providing comprehensive and compassionate medical care to patients of all ages. With expertise in various medical specialties and a patient-centered approach, our doctors deliver personalized healthcare services tailored to meet the unique needs and preferences of each individual.</p>  
+    </section>
+
+    <div class="Upgradation-image-grid" >
+        <div class="Upgradation-image">
+            <img src="https://source.unsplash.com/1600x900/?doctors" alt="">
+        </div>
+
+        <div class="Upgradation-image">
+            <img src="https://source.unsplash.com/1600x900/?doctor-services" alt="">
+        </div>
+
+        <div class="Upgradation-image">
+            <img src="https://source.unsplash.com/1600x900/?medical-operation,doctors" alt="" >
+        </div>
+       
+    </div>
+        <div class="Upgradation-image">
+           <h3 class="heading">Wide Range of Specialties</h3><br/>
+           <ul class="upgradition-list">
+            <li class="upgradition-list1"> <i class="fa-solid fa-arrow-right"></i>Internal Medicine: Our internists specialize in the diagnosis, treatment, and management of complex medical conditions affecting adults, offering preventive care, chronic disease management, and comprehensive health assessments.</li>
+            <li class="upgradition-list1"> <i class="fa-solid fa-arrow-right"></i>Pediatrics: Our pediatricians are dedicated to the health and well-being of children, providing preventive care, vaccinations, developmental screenings, and treatment for childhood illnesses and conditions.</li>
+            <li class="upgradition-list1"> <i class="fa-solid fa-arrow-right"></i>Cardiology: Our cardiologists focus on the diagnosis and management of heart-related disorders, offering expertise in preventive cardiology, cardiac imaging, interventional cardiology, and cardiac rehabilitation.</li>
+            <li class="upgradition-list1"> <i class="fa-solid fa-arrow-right"></i>Orthopedics: Our orthopedic surgeons specialize in the diagnosis and treatment of musculoskeletal injuries and conditions, including fractures, joint disorders, sports injuries, and arthritis.</li>
+            <li class="upgradition-list1"> <i class="fa-solid fa-arrow-right"></i>Obstetrics and Gynecology: Our OB/GYNs provide comprehensive healthcare services for women, including prenatal care, childbirth, gynecological exams, family planning, and menopausal care.</li>
+            <li class="upgradition-list1"> <i class="fa-solid fa-arrow-right"></i>Dermatology: Our dermatologists diagnose and treat a wide range of skin conditions, including acne, eczema, psoriasis, skin cancer, and cosmetic concerns.</li>
+            <li class="upgradition-list1"> <i class="fa-solid fa-arrow-right"></i>Ophthalmology: Our ophthalmologists specialize in the diagnosis and treatment of eye disorders, offering services such as routine eye exams, cataract surgery, LASIK, and treatment for glaucoma and macular degeneration.</li>
+           </ul>
+        </div>
+
+        <div class="Upgradation-image">
+            <h3 class="heading">Patient-Centered Approach</h3><br/>
+            <ul class="upgradition-list">
+                <li class="upgradition-list1"> <i class="fa-solid fa-arrow-right"></i>Holistic Care: Our doctors take a holistic approach to healthcare, considering the physical, emotional, and social aspects of health to provide comprehensive and personalized care.</li>
+                <li class="upgradition-list1"> <i class="fa-solid fa-arrow-right"></i>Communication and Collaboration: We foster open communication and collaboration between patients and doctors, encouraging active participation in treatment decisions and care planning.</li>
+                <li class="upgradition-list1"> <i class="fa-solid fa-arrow-right"></i>Compassionate Care: Our team of doctors is dedicated to providing compassionate care with empathy, respect, and dignity, ensuring that patients feel supported and valued throughout their healthcare journey.</li>
+                <li class="upgradition-list1"> <i class="fa-solid fa-arrow-right"></i>Continuity of Care: We emphasize continuity of care by building long-term relationships with our patients, monitoring their health over time, and coordinating care across different specialties and healthcare settings.</li>
+            </ul>
+         </div>
+
+   
+         <div class="Upgradation-image">
+            <h3 class="heading">Comprehensive Healthcare Services</h3><br/>
+            <ul class="upgradition-list">
+                <li class="upgradition-list1"> <i class="fa-solid fa-arrow-right"></i>Preventive Care: Routine health screenings, vaccinations, and counseling to prevent illness and promote overall well-being.</li>
+                <li class="upgradition-list1"> <i class="fa-solid fa-arrow-right"></i>Diagnosis and Treatment: Expert evaluation, diagnostic testing, and personalized treatment plans for acute and chronic medical conditions.</li>
+                <li class="upgradition-list1"> <i class="fa-solid fa-arrow-right"></i>Chronic Disease Management: Long-term care and management of chronic diseases such as diabetes, hypertension, asthma, and arthritis to optimize health outcomes and quality of life.</li>
+                <li class="upgradition-list1"> <i class="fa-solid fa-arrow-right"></i>Specialized Procedures: Minimally invasive procedures, surgeries, and interventions performed by board-certified specialists using advanced techniques and state-of-the-art equipment.</li>
+                <li class="upgradition-list1"> <i class="fa-solid fa-arrow-right"></i>Patient Education: Empowering patients with knowledge and resources to make informed decisions about their health, lifestyle modifications, and self-care practices.</li>
+            </ul>
+         </div>
+
+
+
+
+         <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-column">
+                        <h4>Our Address</h4>
+                        <p>Muslim Street<br>Thengamputhur <br>TamilNadu,639602</p>
+                        <p>  <a href="mailto: info@shifahealth.com"> <i class="fas fa-envelope"></i> info@shifahealth.com</a></p>
+                        <p> <a href="tel:+919940496796"> <i class="fas fa-phone"></i> +91-9940496796</a></p>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Quick Links</h4>
+                        <ul class="footer-links">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="Hospital.html">About Us</a></li>
+                            <li><a href="service.html">Services</a></li>
+                            <li><a href="client.html">client</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Follow Us</h4>
+                        <ul class="social-media">
+                            <li><a href="#"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                            <li><a href="#"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>&copy;2022 Shifa Health Care & Multi-Bussiness Pvt Ltd. Designed By <a href="#" style="text-decoration: none;">OIMSIT</a>. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+        
+</body>
+</html>
